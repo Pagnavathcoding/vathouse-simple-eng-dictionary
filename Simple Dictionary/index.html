@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Image/logo.PNG">
+    <title>VATHOUSE | Simple Dictionary</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <h1>EngDict</h1>
+            </a>
+        </div>
+        <div class="dev">
+            <a href="https://www.facebook.com/pagnavath.js.3">
+                <div class="developer">
+                    <p>developer</p>
+                    <i class="fa fa-facebook"></i>
+                </div>
+            </a>
+        </div>
+    </header>
+    <div class="title">
+        <p>EngDict: English Dictionary</p>
+    </div>
+    <div class="search">
+        <div class="input-search">
+            <input type="text" placeholder="Search word..." id="input" value="Hello" />
+            <button id="search">Search</button>
+        </div>
+        <p id="clear-search">clear search</p>
+    </div>
+    <!-- <button id="sound">sound</button> -->
+    <!-- <audio src="" id="audio"></audio> -->
+
+    <section class="container" id="container">
+        <div class="word">
+            <h3>Word</h3>
+            <p id=word></p>
+        </div>
+        <div class="display-voice" id="display-voice">
+            <h3>Phonetics</h3>
+            <div class="record" id="record"></div>
+            <button id="play"><img src="./Image/volume-loud.svg" /></button>
+        </div>
+        <div class="title-meaning">
+            <h3>Part of Speech and Meaning</h3>
+        </div>
+        <div class="speech">
+            <div class="part-of-speech" id="part-of-speech">
+
+            </div>
+            <div class="definition" id="definition">
+            </div>
+        </div>
+        <div class="same">
+            <h3>Synonyms</h3>
+            <div class="syn" id="syn">
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright 2021 EngDict, made with :) by Pagnavath.</p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
